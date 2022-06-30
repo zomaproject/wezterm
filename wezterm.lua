@@ -1,11 +1,10 @@
 local wezterm = require 'wezterm';
+local catppuccin = require("colors/catppuccin").setup {}
 return {
--- color_scheme = "OceanicMaterial",
-colors = {
- background = "#232d32"
-  },
-default_prog = {"C:/Program Files/PowerShell/7/pwsh.exe","-nologo"},
-font = wezterm.font("Cascadia Code"),
+--default_prog = {"C:/Program Files/PowerShell/7/pwsh.exe","-nologo"},
+-- font = wezterm.font("MonoLisa"),
+window_background_opacity =  0.8,
+   font = wezterm.font("Cascadia Code"),
 font_size = 11,
   window_padding = {
     left = 0,
@@ -35,4 +34,21 @@ font_size = 11,
   adjust_window_size_when_changing_font_size = false,
   hide_tab_bar_if_only_one_tab = true
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
